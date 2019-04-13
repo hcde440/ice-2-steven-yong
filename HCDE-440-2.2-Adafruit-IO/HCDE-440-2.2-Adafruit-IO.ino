@@ -11,6 +11,10 @@
 //
 // All text above must be included in any redistribution.
 
+/************************ Link to Dashboard *********************************/
+
+//https://io.adafruit.com/steventy/dashboards/hcde-440
+
 /************************** Configuration ***********************************/
 
 #include "config.h"                                                             //Include the config.h file to keep passwords and keys private.
@@ -76,6 +80,6 @@ void loop() {
   last_Light = current_Light;                                                   //Set last_Light to current_Light.
   last_Button = current_Button;                                                 //Set last_Button to current_Button.
 
-  delay(3000);                                                                  //Delay by 3000 milliseconds.
+  delay(10000);                                                                 //Delay by 10000 milliseconds.
 
 }
